@@ -1,0 +1,10 @@
+{
+  "name": "AllyClarity",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/T-Jayay/AllyClarity",
+  "description": "Tells allies from enemies: outlines allied summons and marks pinged allies as allies, in one color for you and one for your teammates, and shows allies' Genesis Loop in your color, not the Wandering Vagrant's blue. Client-side: only you need it.",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.2122",
+    "RiskofThunder-HookGenPatcher-1.2.9"
+  ]
+}

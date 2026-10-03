@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- AllyClarity: makes allied summons and pinged allies easy to tell apart from enemies (outlines and ally pings in
+       a color for you and one for your teammates).
+       Everything else comes from Directory.Build.props and Directory.Build.targets in the repo root. -->
+  <ItemGroup>
+    <!-- The IL./On. hook types. Compile only: HookGenPatcher (a manifest dependency) generates MMHOOK_RoR2.dll on the
+         player's machine. The package targets .NET Framework, which the game's runtime is compatible with (NU1701). -->
+    <PackageReference Include="MMHOOK.RoR2" Version="2025.12.9" IncludeAssets="compile" NoWarn="NU1701" />
+  </ItemGroup>
+</Project>
